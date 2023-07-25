@@ -22,7 +22,9 @@
   },
   "devDependencies": {
     "@rocketseat/eslint-config": "^2.0.1",
+    "daisyui": "^3.4.0",
     "eslint": "^8.45.0",
-    "prettier-plugin-tailwindcss": "^0.4.1"
+    "prettier-plugin-tailwindcss": "^0.4.1",
+    "standard": "^17.1.0"
   }
 }

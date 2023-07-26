@@ -1,5 +1,5 @@
 'use client'
-import React, { useEffect } from 'react'
+
 import { useRouter } from 'next/navigation'
 
 export default function Layout({ children }: { children: React.ReactNode }) {
@@ -14,7 +14,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   }
 
   return (
-    <html lang='en'>
+    <html lang="en">
       <body>{children}</body>
     </html>
   )

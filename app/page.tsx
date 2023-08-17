@@ -1,7 +1,7 @@
-import React from 'react'
+import { redirect } from 'next/navigation'
 
-const page = () => {
-  return <div>index</div>
+const RootPage = () => {
+  redirect('/auth')
 }
 
-export default page
+export default RootPage

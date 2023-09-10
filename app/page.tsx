@@ -1,7 +1,7 @@
 import { redirect } from 'next/navigation'
 
 const RootPage = () => {
-  redirect('/auth')
+  redirect('/auth/login')
 }
 
 export default RootPage
